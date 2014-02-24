@@ -1,4 +1,12 @@
 <% provide(:title, 'Home') %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CS369 Project 2 | <%= yield(:title) %></title>
+  </head>
+  <body>
 <h1>Project 2</h1>
 <p>This is the home page for the CompSci369 Spring2014 Project 2 by Yao Xiao and Lanxi Huang.
 </p>
+</body>
+</html>

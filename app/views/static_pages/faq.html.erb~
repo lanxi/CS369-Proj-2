@@ -1,5 +1,13 @@
 <% provide(:title, 'Faq') %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CS369 Project 2 | <%= yield(:title) %></title>
+  </head>
+  <body>
 <h1>Faq</h1>
 <p>
 If you have any question or concern, please follow the instructions of <a href="http://railstutorial.org/book">Rails Tutorial book</a>. Thank you.
 </p>
+</body>
+</html>
