@@ -1,13 +1,7 @@
 <% provide(:title, 'Blog') %>
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>CS369 Project 2 | <%= yield(:title) %></title>
-  </head>
-  <body>
 <h1>Blog</h1>
 <p>
-Thank you for following the timely updates of this project.
+Thank you for following the timely updates of this project.\n
+Site creation
+-2/24/2014
 </p>
-</body>
-</html>
