@@ -22,7 +22,7 @@ describe "Faq page" do
     end
 it "should have the title 'Faq'" do
       visit '/static_pages/faq'
-      expect(page).to have_title("Ruby on Rails Tutorial Sample App | Faq")
+      expect(page).to have_title("CS369 Project 2 | Faq")
     end
   end
 
@@ -34,7 +34,7 @@ describe "About page" do
     end
   it "should have the title 'About'" do
       visit '/static_pages/about'
-      expect(page).to have_title("Ruby on Rails Tutorial Sample App | About")
+      expect(page).to have_title("CS369 Project 2 | About")
     end
   end
 describe "Blog page" do
@@ -45,7 +45,7 @@ describe "Blog page" do
     end
   it "should have the title 'Blog'" do
       visit '/static_pages/blog'
-      expect(page).to have_title("Ruby on Rails Tutorial Sample App | Blog")
+      expect(page).to have_title("CS369 Project 2 | Blog")
     end
   end
 end

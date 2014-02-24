@@ -1,3 +1,4 @@
+
 require 'spec_helper'
 
 describe "StaticPages" do
@@ -8,12 +9,18 @@ describe "Home page" do
       visit '/static_pages/home'
       expect(page).to have_content('Project 2')
     end
-it "should have the title 'Home'" do
+    
+    it "should have the base title" do
       visit '/static_pages/home'
-      expect(page).to have_title("CS369 Project 2 | Home")
+      expect(page).to have_title("CS369 Project 2")
     end
-  end
 
+    it "should not have a custom page title" do
+      visit '/static_pages/home'
+      expect(page).not_to have_title('| Home')
+    end
+end
+ 
 describe "Faq page" do
 
     it "should have the content 'Faq'" do
